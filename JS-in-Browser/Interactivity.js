@@ -1,3 +1,5 @@
+//Go and run it in https://example.com/
+
 //This is just some code to create an input
 //and give the user the opportunity to create 
 //his name so it gets on the webpage
