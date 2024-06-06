@@ -23,10 +23,10 @@ const tax = 1.20;
 function getPrices(taxBoolean) {
     for (dish of dishData){
         let finalPrice;
-        if(taxBoolean){
+        if(taxBoolean === true){
             finalPrice = dish.price * tax;
         }
-        else if (!taxBoolean){
+        else if (taxBoolean === false){
             finalPrice = dish.price;
         }
         else{
